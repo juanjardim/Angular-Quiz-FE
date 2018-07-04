@@ -12,4 +12,7 @@ export class QuestionComponent implements OnInit {
   ngOnInit() {
   }
 
+  post(question) {
+    console.log("Hello: " +  question)
+  }
 }
